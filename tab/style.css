@@ -1,0 +1,30 @@
+.tabs{
+  border:1px solid #e9e9e9;
+  padding:10px;
+}
+.tabs ul{
+   margin:0;
+   padding:0;
+   list-style:none;
+}
+.tab{
+  display:inline-block;
+  border:1px solid  #e9e9e9;
+  padding:5px 16px;
+  background-color: #f9f9f9;
+  border-radius: 2px 2px 0 0;;
+  margin-right:3px;
+  cursor:pointer;
+}
+.current-tab{
+  border-bottom:1px solid transparent;
+  background-color: white;
+  color:blue;
+  transition:all 0.2s linear;
+}
+.content{
+  border:1px solid #e9e9e9;
+  margin:0;
+  min-height:100px;
+  margin-top:-0.5px;
+}

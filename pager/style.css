@@ -1,0 +1,48 @@
+.pager{
+  border:1px solid #e9e9e9;
+   padding:10px;
+}
+
+.pager ul{
+  list-style:none;
+  margin:0;
+  padding:0;
+}
+
+.pager ul li:not(.nextFive){
+  display: inline-block;
+  width:28px;
+  height:28px;
+  line-height:28px;
+  border:1px solid #e9e9e9;
+  border-radius: 3px;
+  margin-left:6px;
+  margin-right:6px;
+  text-align:center;
+  cursor: pointer;  
+}
+
+.page:hover{
+  border-color:#49a9ee;
+}
+
+.pager .currentPage{
+  background-color:#49a9ee;
+  color:white;
+  transition:all 0.1s linear;
+}
+
+.pager .prev:hover,.pager .next:hover{
+ border-color:#49a9ee;
+}
+
+.pager .nextFive{
+  display: inline-block;
+  width:28px;
+  height:28px;
+  line-height:28px;
+  margin-left:6px;
+  margin-right:6px;
+  text-align:center;
+  cursor: pointer;  
+}

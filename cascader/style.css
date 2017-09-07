@@ -1,0 +1,72 @@
+.cascading-menu{
+  font-size:12px;
+  border:1px solid #e9e9e9;
+  height: 50px;
+  padding:10px;
+}
+.cascading-menu .userInput{
+  position:relative;
+  width:180px;
+}
+.cascading-menu .userInput input{
+    margin:0;
+    padding:4px 15px 4px 4px;
+    border:1px solid rgba(0,0,0,0.2);
+    border-radius:3px;
+    cursor: pointer;
+    width:180px;
+    box-sizing:border-box;
+}
+.cascading-menu .userInput span{
+  position:absolute;
+  top:5px;
+  right:0px;
+  cursor:pointer;
+  text-align:center;
+  width:12px;
+  height:12px;
+  font-size:5px;
+}
+.cascading-menu .userInput span:hover{
+  background-color:#9191B4;
+  color:white;
+  border-radius:12px;
+  transition:all 0.1s linear;
+}
+.cascading-menu .menu ul{
+  list-style:none;
+  width:110px;
+  height:180px;
+  margin:0;
+  padding:0;
+  background-color:white;
+  box-shadow:0 0 6px 1px rgba(0,0,0,.2);
+}
+.cascading-menu .menu ul li{
+  padding:7px 8px;
+  cursor:pointer;
+}
+.menu ul li:hover{
+  background-color:#ecf6fd;
+  transition:all 0.5ms linear;
+}
+.cascading-menu .main {
+  position:relative;
+}
+
+.cascading-menu .main ul{
+  position:absolute;
+  top:0;
+  left:100%;
+}
+
+.cascading-menu .hide{
+  display:none
+}
+.cascading-menu .show{
+  display:block;
+}
+.cascading-menu .selected>span{
+  background-color:#f7f7f7;
+  font-weight:bold;
+}
